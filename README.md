@@ -37,15 +37,21 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 - **Verification:** Run initial SQL queries to confirm that the data has been loaded accurately.
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
 - **Business Problem-Solving:** Write and execute complex SQL queries to answer critical business questions, such as:
+
 Revenue trends across branches and categories.
+
 Identifying best-selling product categories.
+
 Sales performance by time, city, and payment method.
+
 Analyzing peak sales periods and customer buying patterns.
+
 Profit margin analysis by branch and category.
+
 - **Documentation:** Keep clear notes of each query's objective, approach, and results.
 ### 10. Project Publishing and Documentation
-Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
-Project Publishing: Publish the completed project on GitHub or any other version control platform, including:
+- **Documentation:** Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
+- **Project Publishing:** Publish the completed project on GitHub or any other version control platform, including:
 The README.md file (this document).
 Jupyter Notebooks (if applicable).
 SQL query scripts.
@@ -64,7 +70,8 @@ pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
 - **Clone the repository:**
 git clone <repo-url>
 - **Install Python libraries:**
-pip install -r ```txt pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2 ```
+pip install -r ```bash pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2 ```
+
 Set up your Kaggle API, download the data, and follow the steps to load and analyze.
 ## Project Structure
 ```txt
