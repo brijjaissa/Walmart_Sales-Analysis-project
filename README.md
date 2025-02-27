@@ -37,11 +37,11 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 - **Verification:** Run initial SQL queries to confirm that the data has been loaded accurately.
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
 - **Business Problem-Solving:** Write and execute complex SQL queries to answer critical business questions, such as:
-- Revenue trends across branches and categories.
-- Identifying best-selling product categories.
-- Sales performance by time, city, and payment method.
-- Analyzing peak sales periods and customer buying patterns.
-- Profit margin analysis by branch and category.
+    _Revenue trends across branches and categories.
+    _Identifying best-selling product categories.
+    _Sales performance by time, city, and payment method.
+    _Analyzing peak sales periods and customer buying patterns.
+    _Profit margin analysis by branch and category.
 - **Documentation:** Keep clear notes of each query's objective, approach, and results.
 ### 10. Project Publishing and Documentation
 Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
