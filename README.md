@@ -51,7 +51,7 @@ Jupyter Notebooks (if applicable).
 SQL query scripts.
 Data files (if possible) or steps to access them.
 ## Requirements
--**Python 3.12+**
+- **Python 3.12+**
 
 -**SQL Databases:** MySQL, PostgreSQL
 
