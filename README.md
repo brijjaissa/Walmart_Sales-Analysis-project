@@ -63,7 +63,8 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 - **SQL Databases:** MySQL, PostgreSQL
 
 - **Python Libraries:**
-    ```- pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2```
+
+```- pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2```
 
 - **Kaggle API Key:** (for data downloading)
 ## Getting Started
