@@ -51,14 +51,15 @@ Jupyter Notebooks (if applicable).
 SQL query scripts.
 Data files (if possible) or steps to access them.
 ## Requirements
-**. Python 3.12+**
+**Python 3.12+**
 
-**. SQL Databases:** MySQL, PostgreSQL
+**SQL Databases:** MySQL, PostgreSQL
 
-**. Python Libraries:**
+**Python Libraries:**
+```bash
 pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
 
-**. Kaggle API Key:** (for data downloading)
+**Kaggle API Key:** (for data downloading)
 ## Getting Started
 Clone the repository:
 git clone <repo-url>
