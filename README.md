@@ -63,15 +63,15 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 - **SQL Databases:** MySQL, PostgreSQL
 
 - **Python Libraries:**
-```bash
-pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
+```
+    - pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
 ```
 - **Kaggle API Key:** (for data downloading)
 ## Getting Started
 - **Clone the repository:**
 git clone <repo-url>
 - **Install Python libraries:**
-pip install -r ```bash pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2 ```
+pip install -r ```pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2 ```
 
 Set up your Kaggle API, download the data, and follow the steps to load and analyze.
 ## Project Structure
