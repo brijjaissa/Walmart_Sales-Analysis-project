@@ -58,7 +58,7 @@ Data files (if possible) or steps to access them.
 **Python Libraries:**
 ```bash
 pandas, numpy, sqlalchemy, mysql-connector-python, psycopg2
-
+```
 **Kaggle API Key:** (for data downloading)
 ## Getting Started
 Clone the repository:
@@ -67,12 +67,14 @@ Install Python libraries:
 pip install -r requirements.txt
 Set up your Kaggle API, download the data, and follow the steps to load and analyze.
 ## Project Structure
+```txt
 |-- data/                     # Raw data and transformed data
 |-- sql_queries/              # SQL scripts for analysis and queries
 |-- notebooks/                # Jupyter notebooks for Python analysis
 |-- README.md                 # Project documentation
 |-- requirements.txt          # List of required Python libraries
 |-- main.py                   # Main script for loading, cleaning, and processing data
+```
 ## Results and Insights
 This section will include your analysis findings:
 
