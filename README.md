@@ -1,12 +1,11 @@
 # Walmart_Sales-Analysis_project
 ## Project Overview
-![Alt text](walmart_project-piplelines.png) 
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
 
 ## Project Steps
 ### 1. Set Up the Environment
-- **Tools Used:** Visual Studio Code (VS Code), Python, SQL (MySQL and PostgreSQL)  
+- **Tools Used:** Visual Studio Code (VS Code), Python, SQL (PostgreSQL)  
 - **Goal:** Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
 ### 2. Set Up Kaggle API
 - **API Setup:** Obtain your Kaggle API token from Kaggle by navigating to your profile settings and downloading the JSON file.  
@@ -33,12 +32,12 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 ### 7. Feature Engineering
 - **Create New Columns:** Calculate the ```Total Amount``` for each transaction by multiplying ```unit_price``` by ```quantity``` and adding this as a new column.
 - **Enhance Dataset:** Adding this calculated field will streamline further SQL analysis and aggregation tasks.
-### 8. Load Data into MySQL and PostgreSQL
-- **Set Up Connections:** Connect to MySQL and PostgreSQL using ```sqlalchemy``` and load the cleaned data into each database.
-- **Table Creation:** Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
+### 8. Load Data into PostgreSQL
+- **Set Up Connections:** Connect to PostgreSQL using ```sqlalchemy``` and load the cleaned data into each database.
+- **Table Creation:** Set up tables in PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
 - **Verification:** Run initial SQL queries to confirm that the data has been loaded accurately.
-### 9. SQL Analysis: Complex Queries and Business Problem Solving
-- **Business Problem-Solving:** Write and execute complex SQL queries to answer critical business questions, such as:
+### 9. SQL Analysis: Complex Queries and Business Problems Solving
+- **Business Problems-Solving:** Write and execute complex SQL queries to answer critical business questions, such as:
 
     - Revenue trends across branches and categories.
 
@@ -97,7 +96,3 @@ Possible extensions to this project:
 Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
 Additional data sources to enhance analysis depth.
 Automation of the data pipeline for real-time data ingestion and analysis.
-
-## Acknowledgments
-- **Data Source:** Kaggle’s Walmart Sales Dataset
-- **Inspiration:** Walmart’s business case studies on sales and supply chain optimization.
